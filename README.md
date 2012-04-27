@@ -2,7 +2,7 @@
 A Google Chrome extension that overrides the new tab page to display only a stylish digital clock and the current date.
 
 Screenshot:
-![Imgur](http://i.imgur.com/Vx2Ec)
+![Imgur](http://i.imgur.com/rOwlUl.png)
 
 Patches are always welcome.
 
