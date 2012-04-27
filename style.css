@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Asap'), local('Asap-Regular'), url('asap.woff') format('woff');
+}
+
+body {
+  font-family: 'Asap', sans-serif;
+  background-color: #CFCFCF;
+  color: #737373;
+}
+
+#content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 350px;
+  margin-left: -175px;
+  text-align: center;
+  
+}
+
+#time {
+  font-size: 80px;
+}
+
+#date {
+  font-size: 20px;
+}

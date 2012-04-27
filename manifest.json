@@ -1,0 +1,8 @@
+{
+  "name": "New Tab Minimalism",
+  "version": "1.0",
+  "description": "Overrides the new tab page to display only a clock and the current date.",
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  }
+}
