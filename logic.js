@@ -1,6 +1,11 @@
 var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var monthnames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
+document.addEventListener("DOMContentLoaded", function(event) { 
+  //do work
+  update();
+});
+
 function update() {
   var now = new Date();
   var hours = now.getHours();
@@ -21,5 +26,5 @@ function update() {
   document.getElementById('time').innerHTML = time;
   document.getElementById('date').innerHTML = date;
 
-  setTimeout("update()", 1000)
+  window.setTimeout(function () { update(); }, 1000);
 }
